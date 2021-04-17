@@ -1,10 +1,38 @@
 import React from "react"; //this is how we import react packages.
 import ReactDOM from "react-dom";
 
+const coustomStyle ={color:"red", // it will take the value in {key:"value"} pair only
+fontSize:"20px",
+boder:"1px solid black"} ;   // this is done to do inline styling in jsx file or you can do that in css style sheets too.
+
+
+coustomStyle.color = "blue"; // we can edit the style using javascript properties too. 
+
 const img = "https://picsum.photos/200"; 
+
+const date = new Date();
+const time= date.getHours();
+
+let greetings;
+const coustomStyles ={color:""};
+
+if (time<12){
+  greetings="good morning"; 
+coustomStyles.color="red";}
+else if(time<18){
+  greetings="good afternoon";
+coustomStyles.color="green"}
+else{
+  greetings="good night";
+coustomStyles.color="blue";}
+
+
+
 
 ReactDOM.render(
   <div>
+    <h1 style={coustomStyle}> LET US EAT </h1>
+    <p style={coustomStyles}>{greetings}</p>
     <h1 className="heading">My Favourite Foods</h1> 
     <img alt="random" src={img + "?grayscale"} />
 
