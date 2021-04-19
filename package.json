@@ -1,12 +1,11 @@
 {
   "name": "jsx-attributes-and-styling-completed",
   "version": "1.0.0",
-  "description": "",
   "keywords": [],
   "main": "src/index.js",
   "dependencies": {
-    "react": "16.11.0",
-    "react-dom": "16.11.0"
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0"
   },
   "devDependencies": {
     "typescript": "3.3.3"
@@ -22,5 +21,8 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "author": "",
+  "license": "ISC",
+  "description": ""
 }
