@@ -1,7 +1,8 @@
 # 👀React
 
--React is a frontend frame-work library that is maintained by facebook and is used to create UI.
-- it is library created by facebook
+- React is a frontend frame-work library that is maintained by facebook and is used to create UI.
+- it is library created by facebook.
+
 >Installtion of packages
 ```cmd
 npm init
