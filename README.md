@@ -2,7 +2,12 @@
 
 - React is a frontend frame-work library that is maintained by facebook and is used to create UI.
 - it is library created by facebook.
-
+>Starting a new react app is done by
+```cmd
+npx create-react-app my-app
+cd my-app
+npm start
+```
 >Installtion of packages
 ```cmd
 npm init
