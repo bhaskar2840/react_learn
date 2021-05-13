@@ -30,4 +30,4 @@ ReactDOM.render(
 );
 
 ```
-LETS learn about components and 
+# LETS learn about components 
